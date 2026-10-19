@@ -37,8 +37,11 @@ public class PlayerController : NetworkBehaviour {
     public override void OnNetworkDespawn() {
         m_heldObjectType.OnValueChanged -= HandleHeldItemChanged;
 
+        if (IsServer) {
+            DropCurrentItem();
+        }
+
         if (IsOwner) {
-            RequestDropServerRpc();
 
             m_animationEvents.OnInteract -= HandleInteractAction;
             m_animationEvents.OnAnimationDone -= HandleInteractDone;

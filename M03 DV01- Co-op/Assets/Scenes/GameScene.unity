@@ -119,6 +119,124 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &13588428
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1660075872}
+    m_Modifications:
+    - target: {fileID: 3563353031477923501, guid: 28ea3d07c5fa049479b7b6f4f3acc6c8, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637590793211655720, guid: 28ea3d07c5fa049479b7b6f4f3acc6c8, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3138301684
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637590793211655720, guid: 28ea3d07c5fa049479b7b6f4f3acc6c8, type: 3}
+      propertyPath: InScenePlacedSourceGlobalObjectIdHash
+      value: 2492180509
+      objectReference: {fileID: 0}
+    - target: {fileID: 4248535395674728939, guid: 28ea3d07c5fa049479b7b6f4f3acc6c8, type: 3}
+      propertyPath: m_InScenePlaced
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4248535395674728939, guid: 28ea3d07c5fa049479b7b6f4f3acc6c8, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3625033197
+      objectReference: {fileID: 0}
+    - target: {fileID: 4248535395674728939, guid: 28ea3d07c5fa049479b7b6f4f3acc6c8, type: 3}
+      propertyPath: SceneMigrationSynchronization
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4248535395674728939, guid: 28ea3d07c5fa049479b7b6f4f3acc6c8, type: 3}
+      propertyPath: InScenePlacedSourceGlobalObjectIdHash
+      value: 1777303320
+      objectReference: {fileID: 0}
+    - target: {fileID: 4417705156100150280, guid: 28ea3d07c5fa049479b7b6f4f3acc6c8, type: 3}
+      propertyPath: Components.Array.data[0].name
+      value: Rock (1) (Capsule Collider)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4417705156100150280, guid: 28ea3d07c5fa049479b7b6f4f3acc6c8, type: 3}
+      propertyPath: Components.Array.data[1].name
+      value: Rock (1) (Mesh Renderer)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5127384196278506619, guid: 28ea3d07c5fa049479b7b6f4f3acc6c8, type: 3}
+      propertyPath: Components.Array.data[0].name
+      value: Rock (Capsule Collider)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5127384196278506619, guid: 28ea3d07c5fa049479b7b6f4f3acc6c8, type: 3}
+      propertyPath: Components.Array.data[1].name
+      value: Rock (Mesh Renderer)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6211565343829425787, guid: 28ea3d07c5fa049479b7b6f4f3acc6c8, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.74073
+      objectReference: {fileID: 0}
+    - target: {fileID: 6211565343829425787, guid: 28ea3d07c5fa049479b7b6f4f3acc6c8, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5940358
+      objectReference: {fileID: 0}
+    - target: {fileID: 6211565343829425787, guid: 28ea3d07c5fa049479b7b6f4f3acc6c8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.74073
+      objectReference: {fileID: 0}
+    - target: {fileID: 6211565343829425787, guid: 28ea3d07c5fa049479b7b6f4f3acc6c8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.5960364
+      objectReference: {fileID: 0}
+    - target: {fileID: 6211565343829425787, guid: 28ea3d07c5fa049479b7b6f4f3acc6c8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.6060263
+      objectReference: {fileID: 0}
+    - target: {fileID: 6211565343829425787, guid: 28ea3d07c5fa049479b7b6f4f3acc6c8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.545231
+      objectReference: {fileID: 0}
+    - target: {fileID: 6211565343829425787, guid: 28ea3d07c5fa049479b7b6f4f3acc6c8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.37953544
+      objectReference: {fileID: 0}
+    - target: {fileID: 6211565343829425787, guid: 28ea3d07c5fa049479b7b6f4f3acc6c8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.90119153
+      objectReference: {fileID: 0}
+    - target: {fileID: 6211565343829425787, guid: 28ea3d07c5fa049479b7b6f4f3acc6c8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.058838673
+      objectReference: {fileID: 0}
+    - target: {fileID: 6211565343829425787, guid: 28ea3d07c5fa049479b7b6f4f3acc6c8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.2008601
+      objectReference: {fileID: 0}
+    - target: {fileID: 6211565343829425787, guid: 28ea3d07c5fa049479b7b6f4f3acc6c8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -41.333
+      objectReference: {fileID: 0}
+    - target: {fileID: 6211565343829425787, guid: 28ea3d07c5fa049479b7b6f4f3acc6c8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 507.206
+      objectReference: {fileID: 0}
+    - target: {fileID: 6211565343829425787, guid: 28ea3d07c5fa049479b7b6f4f3acc6c8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -159.862
+      objectReference: {fileID: 0}
+    - target: {fileID: 6735196368025167041, guid: 28ea3d07c5fa049479b7b6f4f3acc6c8, type: 3}
+      propertyPath: m_Name
+      value: Rock (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 28ea3d07c5fa049479b7b6f4f3acc6c8, type: 3}
+--- !u!4 &13588429 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6211565343829425787, guid: 28ea3d07c5fa049479b7b6f4f3acc6c8, type: 3}
+  m_PrefabInstance: {fileID: 13588428}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &20245915
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3313,6 +3431,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1403193429}
+  - component: {fileID: 1403193430}
   m_Layer: 0
   m_Name: Level 1
   m_TagString: Untagged
@@ -3352,6 +3471,20 @@ Transform:
   - {fileID: 636919770}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1403193430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1403193428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcb6d702efc5a394cad713fb26a471fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Level
+  nextLevelArea: {fileID: 1893280954}
+  gateBoarder: {fileID: 589027901}
 --- !u!1001 &1462632346
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3927,6 +4060,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1753531605}
+  - {fileID: 13588429}
   m_Father: {fileID: 1893280955}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1672824220
@@ -4646,12 +4780,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1885158400}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.44, y: -0.57, z: -15.74713}
   m_LocalScale: {x: 7.8561, y: 1, z: 14.498396}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1893280955}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1887651687
 GameObject:
@@ -4693,8 +4827,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1893280955}
+  - component: {fileID: 1893280956}
   m_Layer: 0
-  m_Name: Level 1 (1)
+  m_Name: Level 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4722,8 +4857,23 @@ Transform:
   - {fileID: 1660075872}
   - {fileID: 1227697321}
   - {fileID: 881589630}
+  - {fileID: 1885158404}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1893280956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1893280954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcb6d702efc5a394cad713fb26a471fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Level
+  nextLevelArea: {fileID: 0}
+  gateBoarder: {fileID: 0}
 --- !u!1 &1894150308
 GameObject:
   m_ObjectHideFlags: 0
@@ -5247,6 +5397,5 @@ SceneRoots:
   - {fileID: 306963176}
   - {fileID: 774871791}
   - {fileID: 289459139}
-  - {fileID: 1885158404}
   - {fileID: 1403193429}
   - {fileID: 1893280955}

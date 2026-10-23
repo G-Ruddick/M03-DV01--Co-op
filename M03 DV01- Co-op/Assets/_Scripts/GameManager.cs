@@ -27,9 +27,9 @@ public class GameManager : NetworkBehaviour {
         NetworkManager.OnClientConnectedCallback += SpawnPlayer;
         NetworkManager.SceneManager.OnLoadEventCompleted += HandleSceneLoadCompleted;
 
-        foreach (ResourcePallet pallet in pallets) {
-            pallet.OnPalletFilled += CheckWinCondition;
-        }
+        // foreach (ResourcePallet pallet in pallets) {
+        //     pallet.OnPalletFilled += CheckWinCondition;
+        // }
     }
     
     public override void OnNetworkDespawn() {
@@ -38,24 +38,24 @@ public class GameManager : NetworkBehaviour {
             NetworkManager.SceneManager.OnLoadEventCompleted -= HandleSceneLoadCompleted;
         }
 
-        foreach (ResourcePallet pallet in pallets) {
-            pallet.OnPalletFilled -= CheckWinCondition;
-        }
+        // foreach (ResourcePallet pallet in pallets) {
+        //     pallet.OnPalletFilled -= CheckWinCondition;
+        // }
         
         base.OnNetworkDespawn();
     }
 
-    private void CheckWinCondition() {
-        int points  = 0;
+    // private void CheckWinCondition() {
+    //     int points  = 0;
 
-        foreach (ResourcePallet pallet in pallets) {
-            points += pallet.StackedResoruces;
-        }
+    //     foreach (ResourcePallet pallet in pallets) {
+    //         points += pallet.StackedResoruces;
+    //     }
 
-        if (points >= pallets.Count * 3) {
-            NetworkManager.SceneManager.LoadScene(SceneManager.GetActiveScene().name, LoadSceneMode.Single);
-        }
-    }
+    //     if (points >= pallets.Count * 3) {
+    //         NetworkManager.SceneManager.LoadScene(SceneManager.GetActiveScene().name, LoadSceneMode.Single);
+    //     }
+    // }
 
     private void StartHost() {
         m_multiplayerUI.DisableButtons();

@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 706981bc82d333e48b6354988093a8dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InteractableDetector
-  m_detectionRadius: 3
+  m_detectionRadius: 1
   m_detectionAngle: 60
   m_pickupLayer:
     serializedVersion: 2
@@ -67,7 +67,7 @@ GameObject:
   - component: {fileID: 5904074159909204988}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -143,7 +143,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Netcode.Runtime::Unity.Netcode.NetworkObject
-  GlobalObjectIdHash: 1308766191
+  GlobalObjectIdHash: 3322677951
   InScenePlacedSourceGlobalObjectIdHash: 0
   m_InScenePlacedDisabledByDefault: 0
   DeferredDespawnTick: 0

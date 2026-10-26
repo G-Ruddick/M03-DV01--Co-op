@@ -3,10 +3,25 @@ using UnityEngine.SceneManagement;
 using System.Collections.Generic;
 using Unity.Netcode;
 
-public class Level : NetworkBehaviour{
+public class Level : NetworkBehaviour {
+    [SerializeField] private bool isVisibleAtStart;
     [SerializeField] private GameObject nextLevelArea;
     [SerializeField] private GameObject gateBoarder;
     [SerializeField] private List<ResourcePallet> pallets;
+
+    public override void OnNetworkSpawn() {
+        Invoke(nameof(Disable), 0.01f);
+    }
+
+    private void Disable() {
+        if (IsServer == false) {
+            return;
+        }
+
+        if (!isVisibleAtStart) {
+            this.gameObject.SetActive(false);
+        }
+    }
 
     private void Update() {
         CheckForLevelCondition();

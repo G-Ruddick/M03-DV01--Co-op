@@ -36,6 +36,7 @@ public class ResourceNode : NetworkBehaviour, IInteractable {
         }
 
         if (m_toolTypeRequired.Contains(toolType)) {
+            Debug.Log("Hit");
             m_health.Value--;
             PlayAudioClientRpc();
 

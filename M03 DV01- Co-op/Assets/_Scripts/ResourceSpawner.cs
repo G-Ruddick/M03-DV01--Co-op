@@ -9,7 +9,7 @@ public class ResourceSpawner : NetworkBehaviour {
             return;
         }
 
-        NetworkObject resource = type == ObjectType.Wood ? woodPrefab : stonePrefab;
+        NetworkObject resource = (type == ObjectType.Wood) ? woodPrefab : stonePrefab;
 
         GameObject instance = Instantiate(
             resource.gameObject, 

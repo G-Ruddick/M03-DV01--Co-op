@@ -10,17 +10,20 @@ public class Level : NetworkBehaviour {
     [SerializeField] private List<ResourcePallet> pallets;
 
     public override void OnNetworkSpawn() {
+        base.OnNetworkSpawn();
         Invoke(nameof(Disable), 0.01f);
     }
 
     private void Disable() {
-        if (IsServer == false) {
-            return;
-        }
+        // if (IsServer == false) {
+        //     return;
+        // }
 
         if (!isVisibleAtStart) {
             this.gameObject.SetActive(false);
         }
+
+        Debug.Log("Hiding level");
     }
 
     private void Update() {
